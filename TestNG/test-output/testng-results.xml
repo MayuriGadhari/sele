@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[from banana()]]>
+    </line>
+    <line>
+      <![CDATA[from zebra()]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="42" started-at="2020-09-10T22:38:24 IST" finished-at="2020-09-10T22:38:24 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="42" started-at="2020-09-10T22:38:24 IST" finished-at="2020-09-10T22:38:24 IST">
+      <class name="TestNG.P1">
+        <test-method status="PASS" signature="apple()[pri:0, instance:TestNG.P1@1d16f93d]" name="apple" duration-ms="7" started-at="2020-09-10T22:38:24 IST" finished-at="2020-09-10T22:38:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apple -->
+        <test-method status="PASS" signature="banana()[pri:0, instance:TestNG.P1@1d16f93d]" name="banana" duration-ms="1" started-at="2020-09-10T22:38:24 IST" finished-at="2020-09-10T22:38:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[from banana()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- banana -->
+        <test-method status="PASS" signature="zebra()[pri:0, instance:TestNG.P1@1d16f93d]" name="zebra" duration-ms="1" started-at="2020-09-10T22:38:24 IST" finished-at="2020-09-10T22:38:24 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[from zebra()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- zebra -->
+      </class> <!-- TestNG.P1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
